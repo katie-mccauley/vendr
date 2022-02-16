@@ -15,6 +15,8 @@ class VendorsService {
     console.log(snack)
     if (snack.price <= ProxyState.money) {
       ProxyState.money -= snack.price
+    } else {
+      alert("can't buy ths item")
     }
   }
 

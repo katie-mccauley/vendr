@@ -8,8 +8,8 @@ class AppState extends EventEmitter {
   money = 0
 
   snacks = [
-    new Snack('Mountain Sprite', 2.50),
-    new Snack('Root Dew', 5.75)
+    new Snack('Mountain Sprite', 2.50, "https://www.gannett-cdn.com/-mm-/9654460bcc7c4d3aa4d71d76ad695dc90914afac/c=0-653-3000-2348/local/-/media/2018/01/08/USATODAY/USATODAY/636510282265390646-MTN-DEW-ICE.JPG"),
+    new Snack('Root Dew', 5.75, "https://ipcdn.freshop.com/resize?url=https://images.freshop.com/00012000180613/a710f15faa3fb7541195985095120bab_large.png&width=512&type=webp&quality=80")
   ]
 }
 
